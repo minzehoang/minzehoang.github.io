@@ -1,0 +1,90 @@
+.logoadidas {
+  width: 106px;
+}
+.flex-container {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: white;
+  align-content: center;
+  min-width: -webkit-fill-available;
+  margin-top: -69px;
+  margin-bottom: 0px;
+  margin-left: -67px;
+  margin-right: 59px;
+  height: 140px;
+  align-items: center;
+}
+.flex-container > div {
+  background-color: white;
+  width: 225px;
+  margin-top: 12px;
+
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 26px;
+}
+body {
+  padding: 4%;
+
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.authorandtime {
+  text-decoration: underline;
+  font-style: italic;
+}
+.baiviet {
+  margin: auto;
+  width: 733px;
+  max-width: 100%;
+  line-height: 32.5px;
+  font-weight: 500;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: system-ui;
+  line-height: 120%;
+  margin-top: 60px;
+  padding: 22px;
+}
+
+.time {
+  font: revert;
+  float: right;
+  text-align: right;
+}
+
+.pictrangchu {
+  max-width: 300px;
+  margin-bottom: 50px;
+}
+.tenclub {
+  text-align: center;
+  line-height: 80px;
+  font-size: 50px;
+  font-family: none;
+}
+.source {
+  font-size: larger;
+  text-align: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.pictrangphu {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+.fixanhtrangphu {
+  text-align: center;
+}
