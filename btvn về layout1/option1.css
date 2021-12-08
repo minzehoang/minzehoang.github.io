@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+.red,
+.green,
+.blue,
+.white {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  background-color: red;
+}
+.blueandgreen {
+  width: 40%;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.white {
+  background-color: white;
+  color: black;
+
+  width: 15px;
+}
+.exe1,
+.exe2,
+.exe3,
+.exe4 {
+  display: flex;
+}
+.exe1 .red,
+.exe2 .red {
+  width: 60%;
+}
+.exe1 .green,
+.exe1 .blue,
+.exe2 .green,
+.exe2 .blue {
+  height: 200px;
+}
+.exe1 .red,
+.exe2 .red,
+.exe3 div,
+.exe4 div {
+  height: 400px;
+}
+.exe3 .red,
+.exe3 .green,
+.exe3 .blue,
+.exe4 .red,
+.exe4 .green,
+.exe4 .blue {
+  width: 33.3333%;
+}
