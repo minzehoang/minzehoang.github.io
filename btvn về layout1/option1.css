@@ -32,10 +32,8 @@ body {
 
   width: 15px;
 }
-.exe1,
-.exe2,
-.exe3,
-.exe4 {
+[class^="exe"]
+ {
   display: flex;
 }
 .exe1 .red,
@@ -54,11 +52,7 @@ body {
 .exe4 div {
   height: 400px;
 }
-.exe3 .red,
-.exe3 .green,
-.exe3 .blue,
-.exe4 .red,
-.exe4 .green,
-.exe4 .blue {
+.exe3 div,
+.exe4 div:nth-of-type(odd){
   width: 33.3333%;
 }
