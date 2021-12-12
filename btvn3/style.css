@@ -64,7 +64,7 @@ h1 {
 }
 
 .pictrangchu {
-  max-width: 300px;
+  max-width: 33%;
   margin-bottom: 50px;
 }
 .tenclub {
@@ -87,4 +87,12 @@ a {
 }
 .fixanhtrangphu {
   text-align: center;
+}
+.flexnowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.space{
+  background-color: black;
+  width: 15px;
 }
