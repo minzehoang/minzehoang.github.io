@@ -31,7 +31,7 @@ h1 {
   font-weight: bold;
 }
 .product-frame {
-  margin-top: -2vw;
+  margin-top: -7vw;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
