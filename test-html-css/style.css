@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  width: 70%;
+  margin: 40px auto;
+  line-height: 24px;
+  font-family: Helvetica, sans-serif;
+}
+h1 {
+  font-size: 52px;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.TimeandName {
+  border-bottom: 2px solid #ccc;
+  margin: 30px 30px 55px 30px;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.content {
+  margin: 0px 15px;
+  line-height: 30px;
+}
+.text::first-letter {
+  font-size: 300%;
+}
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: 0.5s;
+}
+
+.cityframe {
+  text-align: center;
+
+  width: 30%;
+  margin-top: 50px;
+  display: flex;
+  align-content: space-around;
+  transition: 0.5s;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: rgb(88, 161, 214);
+}
+
+img {
+  width: 100%;
+}
+.cityframe:hover {
+  border: 5px solid rgb(43, 161, 112);
+  border-radius: 15px;
+  width: 40%;
+}
+.picsframe {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.sitepic {
+  width: 60%;
+  margin: 30px 0;
+  border:rgb(88, 161, 214) solid 5px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.sitepic:hover{
+    width: 100%;
+    border-radius: unset;
+    border: unset
+}
+.backtoindex{
+    text-align: center;
+    color: rgb(88, 161, 214);
+    font-size: 25px;
+}
