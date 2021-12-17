@@ -9,6 +9,7 @@ body {
   margin: 40px auto;
   line-height: 24px;
   font-family: Helvetica, sans-serif;
+  padding-bottom: 50px;
 }
 h1 {
   font-size: 52px;
@@ -35,14 +36,12 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  transition: 0.5s;
 }
 
 a {
   text-decoration: none;
   font-weight: bold;
   color: rgb(88, 161, 214);
-  transition: 1s;
 }
 
 .cityframe {
@@ -54,28 +53,29 @@ a {
   transition: 1s;
 }
 .cityname {
-  display: none;
+  font-size: 1vw;
   text-align: center;
-  transform: translateY(50px);
+  display: none;
 }
 
 .rankingnumber {
   display: block;
 }
 
-img {
+a img {
   width: 100%;
+  transition: 0s;
+}
+img {
   transition: 1s;
 }
-a:hover {
-  color: white;
-}
 .cityframe:hover {
-  border: 5px solid rgb(43, 161, 112);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border: rgb(43, 161, 112);
   border-radius: 15px;
 
   background-color: black;
-  transform: scale(150%);
+  transform: scale(180%);
 }
 
 a:hover .cityname {
@@ -84,6 +84,9 @@ a:hover .cityname {
 }
 a:hover .rankingnumber {
   display: none;
+}
+a:hover img {
+  width: 95%;
 }
 .picsframe {
   display: flex;
@@ -98,13 +101,30 @@ a:hover .rankingnumber {
   border-radius: 15px;
 }
 .sitepic:hover {
-  width: 100%;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 2.5px;
+  width: 90%;
   border-radius: unset;
   border: unset;
 }
 .backtoindex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc61;
+  font-size: 2.5vw;
   text-align: center;
   color: rgb(88, 161, 214);
-  font-size: 25px;
-  padding-bottom: 15px;
+  position: fixed;
+  top: 662px;
+  height: 50px;
+  width: 100%;
+  left: 1px;
+}
+.backtoindex a {
+  font-size: 2vw;
+}
+.backtoindex a:hover {
+  color: black;
+  transition: 1s;
 }
