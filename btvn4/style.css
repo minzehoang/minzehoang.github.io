@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  max-height: fit-content;
+}
+body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #d63031, #ff7675);
+  margin: 8vw 10vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  color: #ecf0f1;
+  padding-bottom: 4vw;
+  margin-top: 2vw;
+  font-size: 10vw;
+}
+.card-profile {
+  line-height: 1.2;
+  background-color: #f5f6fa;
+  width: 75%;
+  padding: 2vw 3vw 3vw 3vw;
+  border-radius: 2vw;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-detail {
+  list-style-type: none;
+}
+.card-profile > div {
+  font-size: 4.5vw;
+}
+ul {
+  font-size: 3.5vw;
+  font-weight: 500;
+  display: none;
+}
+.card-name {
+  color: #ff7675;
+  font-size: 5vw;
+  margin: 0.5vw 0 4vw 0;
+  text-align: center;
+}
+.card-profile > div {
+  font-weight: bolder;
+  margin-bottom: 4vw;
+}
+.card-img {
+  margin-top: 1.8vw;
+  text-align: center;
+}
+.card-img img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.card-img img:hover {
+  width: 100%;
+  height: 100%;
+}
+li:nth-child(6) {
+  margin-top: 3vw;
+}
+li:last-child {
+  margin-bottom: 3vw;
+}
+
+li > img {
+  margin: 3vw 0;
+  width: 100%;
+}
+.card-socialaccs {
+  border-top: solid 0.5vw;
+}
+
+.card-socialaccs div {
+  margin-top: 6vw;
+  font-size: 12vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+ul:hover li {
+  display: block;
+}
+.card-tinhnet:hover + ul {
+  display: block;
+}
+.card-ngoaihinh:hover + ul {
+  display: block;
+}
+.card-mqh:hover + ul {
+  display: block;
+}
+/*
+li {
+  visibility: hidden;
+  transition: 0.5s;
+  transition-delay: 2s;}
+.card-tinhnet:hover + ul > li {
+  transition: 1s;
+
+  visibility: visible;
+}
+
+.card-ngoaihinh:hover li {
+  transition: 1s;
+  opacity: 1;
+}
+.card-mqh:hover li {
+  transition: 1s;
+  opacity: 1;
+}
+.card-profile > div:hover li:nth-child(2) {
+  transition-delay: 0.5s;
+}
+.card-profile > div:hover li:nth-child(3) {
+  transition-delay: 1s;
+}
+.card-profile > div:hover li:nth-child(4) {
+  transition-delay: 1.5s;
+}
+.card-profile > div:hover li:nth-child(5) {
+  transition-delay: 2s;
+}
+.card-profile > div:hover li:nth-child(6) {
+  transition-delay: 2.5s;
+}
+*/
