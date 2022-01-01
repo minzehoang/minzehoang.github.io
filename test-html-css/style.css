@@ -7,20 +7,20 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   width: 70%;
   margin: 40px auto;
-  line-height: 24px;
+  line-height: 1.2;
   font-family: Helvetica, sans-serif;
   padding-bottom: 100px;
 }
 h1 {
-  font-size: 52px;
+  font-size: 5vw;
   text-align: center;
-  line-height: 60px;
-  margin-bottom: 30px;
+  line-height: 1.5;
+  margin-bottom: 1em;
 }
 .TimeandName {
   border-bottom: 2px solid #ccc;
-  margin: 30px 30px 55px 30px;
-  font-weight: bold;
+  margin: 30px 30px 25px 30px;
+  font-weight: 500;
   display: flex;
   align-content: center;
   justify-content: space-between;
@@ -128,11 +128,11 @@ a:hover img {
   text-align: center;
   color: rgb(88, 161, 214);
   position: fixed;
-  top: 672px;
-
-  height: 50px;
+ bottom: 0px;
+ left: 0px;
+right: 0px;
   width: 100%;
-  left: 1px;
+  
 }
 .backtoindex a {
   font-size: 2vw;
@@ -140,4 +140,27 @@ a:hover img {
 .backtoindex a:hover {
   color: black;
   transition: 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 90%;
+    padding-bottom: 1em;
+  }
+  .cityframe {
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .cityname {
+    font-size: 1.5em;
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  .rankingnumber {
+    margin-bottom: 0px;
+  }
+  .sitepic{
+    width: 95%;
+  }
 }
