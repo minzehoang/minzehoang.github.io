@@ -128,11 +128,10 @@ a:hover img {
   text-align: center;
   color: rgb(88, 161, 214);
   position: fixed;
- bottom: 0px;
- left: 0px;
-right: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
-  
 }
 .backtoindex a {
   font-size: 2vw;
@@ -142,7 +141,7 @@ right: 0px;
   transition: 1s;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     width: 90%;
     padding-bottom: 1em;
@@ -160,7 +159,18 @@ right: 0px;
   .rankingnumber {
     margin-bottom: 0px;
   }
-  .sitepic{
+  .sitepic {
     width: 95%;
+  }
+  .cityframe:hover {
+    transform: unset;
+  }
+  a:hover .rankingnumber {
+    transform: unset;
+
+    opacity: 1;
+    transform: unset;
+
+    visibility: unset;
   }
 }
