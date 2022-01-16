@@ -1,0 +1,106 @@
+
+.main {
+  margin: auto;
+  overflow: hidden;
+  padding: 60px 0;
+  position: relative;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .set-height-xl {
+    height: 62px;
+    overflow: hidden;
+  }
+}
+img {
+  width: 100%;
+  opacity: 1;
+  transition: 0.5s;
+}
+.text {
+  font-size: 12px;
+}
+div a {
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  margin-left: -0.3em;
+}
+.set-height > div {
+  height: 94px;
+  overflow: hidden;
+}
+/*  cần xét media */
+
+.set-height2 > div {
+  height: 140px;
+  overflow: hidden;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  border-radius: 4px;
+  background-color: #d80f16;
+  color: #fff;
+  border: unset;
+  margin: 0 auto;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+div a:hover {
+  color: black;
+}
+.set-hover-opacity:hover {
+  opacity: 0.5;
+}
+@media (min-width: 768px) {
+  .set-scale:hover {
+    transform: scale(120%);
+  }
+}
+
+.set-overflow-hidden {
+  overflow: hidden;
+}
+.set-position-relative {
+  position: relative;
+}
+.set-position-absolute {
+  position: absolute;
+  right: 8px;
+}
+.bx-search {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.bx-search:hover {
+  opacity: 1;
+}
+.bxs-info-circle,
+.bx-sun,
+.bxs-user-circle {
+  font-size: 25px;
+}
+.bx-play {
+  font-size: 4em;
+}
+@media (max-width: 540px) {
+  .bx-play {
+    font-size: 3em;
+  }
+}
+.set-position div {
+  color: #fff;
+  opacity: 1;
+}
+.set-position {
+  bottom: 20px;
+  left: 15px;
+
+  right: 11px;
+}
