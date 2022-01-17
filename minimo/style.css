@@ -127,8 +127,8 @@ img {
 }
 .footer {
   background-color: rgb(233, 233, 233);
-  height: 5vh;
-  font-size: 28px;
+  height: 55px;
+  font-size: 2em;
 }
 .left-side {
   margin-left: 5vh;
