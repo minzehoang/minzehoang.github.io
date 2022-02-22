@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+#preview {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.preview-text {
+  width: 90%;
+}
+.preview-text h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 51px;
+
+  color: #414141;
+}
+.preview-text h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  color: #414141;
+}
+.preview-text p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.preview-video {
+  margin: auto;
+  width: 90%;
+
+  position: relative;
+}
+
+.preview-video img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.preview-video .oral {
+  transform: translate(-50%, -50%);
+  /* cách 1 là dùng text align và line height thì bằng height của div */
+  /* text-align: center; */
+  /* line-height: 75px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  height: 75px;
+  position: absolute;
+  width: 75px;
+  background: linear-gradient(90deg, #fe985b 2.77%, #fe4fa7 100%);
+}
+.preview-video i {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .preview-video {
+    margin: unset;
+    margin-top: 50px;
+  }
+  .preview-video img {
+    margin: unset;
+  }
+  .preview-text {
+    width: 75%;
+  }
+}
+#service {
+}
+.service-item h3 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #414141;
+}
+.service-item p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+}
+
+#get-started {
+  background: linear-gradient(90deg, #fe985b 2.77%, #fe4fa7 100%);
+  padding: 121px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#get-started h2 {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
+}
+
+#get-started p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 550px;
+  margin: 28px auto;
+}
+
+#get-started button {
+  font-size: 18px;
+  line-height: 22px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #464646;
+  border: none;
+  padding: 15px 50px;
+}
+
+@media (max-width: 768px) {
+  #get-started h2 {
+    font-size: 42px;
+  }
+  #get-started p {
+    width: auto;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  #get-started h2 {
+    font-size: 36px;
+  }
+  #get-started p {
+    width: auto;
+    font-size: 12px;
+  }
+}
