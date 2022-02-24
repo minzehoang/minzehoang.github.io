@@ -571,6 +571,7 @@ label input {
   mix-blend-mode: normal;
   opacity: 0.3;
   padding-left: 10px;
+  background-color: #ffffff;
 }
 label button {
   font-weight: 600;
