@@ -19,7 +19,10 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
+#navbar a{
+  text-decoration: none;
+  color: unset;
+}
 #left {
   font-style: normal;
   font-weight: bold;
@@ -551,7 +554,10 @@ body {
   mix-blend-mode: normal;
   opacity: 0.8;
 }
-
+#social-media a{
+  text-decoration: none;
+  color: unset;
+}
 /* nút điền email */
 label span {
   display: block;
